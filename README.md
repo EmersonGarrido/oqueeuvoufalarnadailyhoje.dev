@@ -1,30 +1,68 @@
-# React + TypeScript + Vite
+# O Que Falar Na DailyHoje.dev
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é um projeto que gera frases aleatórias para usar em reuniões diárias (dailies). Diga adeus às desculpas esfarrapadas e gere frases incríveis para suas dailies e brilhe em suas reuniões.
 
-Currently, two official plugins are available:
+## Funcionalidades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Gerar Frases Aleatórias:** Gere frases aleatórias para usar em suas reuniões diárias.
+- **Copiar Frases:** Copie a frase gerada para a área de transferência.
+- **Compartilhar como Imagem:** Gere uma imagem com a frase para compartilhar facilmente.
 
-## Expanding the ESLint configuration
+## Tecnologias Utilizadas
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- React
+- TypeScript
+- Canvas API
+- HTML5
+- CSS3
 
-- Configure the top-level `parserOptions` property like this:
+## Como Executar o Projeto
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+1. Clone o repositório:
+
+```bash
+   git clone https://github.com/EmersonGarrido/oqueeuvoufalarnadailyhoje.dev.git
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+2. Navegue até o diretório do projeto:
+
+```bash
+cd oqueeuvoufalarnadailyhoje.dev
+```
+
+3. Instale as dependências:
+
+```bash
+yarn
+```
+
+4.Execute o projeto:
+
+```bash
+yarn dev
+```
+
+## Tarefas Futuras
+
+### Banco de Dados:
+
+- [ ] : Integrar um banco de dados para armazenar frases, sugestões dos usuários e classificações das frases.
+
+### Botão de Sugerir Textos:
+
+- [ ] : Adicionar um botão que permita aos usuários sugerirem novos textos para serem adicionados ao banco de frases.
+
+### Botão de Classificação da Frase:
+
+- [ ] : Adicionar botões de "Gostei" e "Não Gostei" para que os usuários possam classificar as frases geradas.
+
+## Como Contribuir
+
+1. Faça um fork deste repositório.
+2. Crie uma branch para a sua feature (git checkout -b feature/nova-feature).
+3. Commit suas mudanças (git commit -am 'Adicionei uma nova feature').
+4. Push para a branch (git push origin feature/nova-feature).
+5. Abra um Pull Request.
+
+Licença
+Este projeto está licenciado sob a licença MIT - veja o arquivo LICENSE para mais detalhes.
